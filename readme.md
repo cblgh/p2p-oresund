@@ -8,13 +8,14 @@ an offline gathering for peer-to-peer conspirators artists and estranged develop
 
 three speakers will elaborate on the topic of mesh networks a saturday afternoon in late october
 
-after the talks there will be vegan food to enjoy at self-cost while we chat our way into the evening
+after the talks there will be food to enjoy at self-cost while we chat our way into the evening
 
 ## Speakers
 
 * [Olivia Solis](https://twitter.com/oliviasolis) - cuba mesh expert
 * [mafintosh](https://twitter.com/mafintosh) - protocol lead at datproject
-* TBA
+* [Emil Bayes](https://twitter.com/emilbayes) - open source hacker, speaking about trust and secure communications in p2p systems
+
 
 ## RSVP
 
