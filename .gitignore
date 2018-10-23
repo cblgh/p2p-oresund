@@ -3,8 +3,6 @@
 #################
 *.sw[op]
 *.db
-/public/index.html
-/public/links/style.css
 **/node_modules
 
 #################
