@@ -86,7 +86,7 @@ h3 {
 
 .row-2 {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 150px 1fr;
     background: black;
     padding: 20px;
     color: white;
@@ -157,7 +157,7 @@ and (max-device-width : 720px)
 
     .row-2 {
         display: grid;
-        grid-template-columns: 100px 1fr;
+        grid-template-columns: 150px 1fr;
         background: black;
         padding: 20px;
         color: white;
