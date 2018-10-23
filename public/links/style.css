@@ -92,6 +92,10 @@ h3 {
     color: white;
 }
 
+.row-2 p {
+    margin-top: 10px
+}
+
 .fullwidth {
     text-align: justify;
     -moz-text-align-last: center;
