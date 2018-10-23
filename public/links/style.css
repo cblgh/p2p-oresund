@@ -1,0 +1,277 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("dotgrid.jpg");
+    background-size: 5%;
+    background-attachment: fixed;
+}
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted white;
+    transition: color 200ms ease-in-out;
+}
+a:hover {
+    color: brown;
+    border-color: #999;
+}
+.sponsor {
+    font-size: 18pt;
+    margin-bottom: 15px;
+}
+#header {
+    padding: 170px 80px 0 80px;
+    background: black;
+    color: white;
+}
+
+.title {
+    font-size: 76px;
+}
+
+#content {
+    padding: 90px 100px 100px 100px;
+    background: black;
+    color: white;
+}
+
+.separator {
+    text-align: center;
+    border-top: 2px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.l-info {
+    padding: 5px 0 0 0;
+}
+
+
+h1 {
+    font-size: 65px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+h3 {
+    font-size: 42pt;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.orange {
+    color: orange;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background: black;
+    padding: 20px;
+    color: white;
+}
+
+.fullwidth {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.section {
+    margin-top: 95px;
+}
+.center {
+    text-align: center;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list > li {
+    padding-top: 5px;
+    /* display: inline-block; */
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px),
+only screen
+and (min-device-width : 375px) 
+and (max-device-width : 720px) 
+{ 
+    body {
+        width: 100vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #header {
+        padding: 120px 10px 0 10px;
+        background: black;
+        color: white;
+    }
+
+    .title {
+        font-size: 76px;
+    }
+
+    #content {
+        padding: 90px 10px 90px 10px;
+        background: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 49px;
+    }
+    .title {
+        font-size: 59px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 100px 180px;
+    }
+
+    .row-2 {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        background: black;
+        padding: 20px;
+        color: white;
+    }
+
+    #header {
+        padding: 120px 10px 0 10px;
+        background: black;
+        color: white;
+    }
+
+    .title {
+        font-size: 76px;
+    }
+
+    #content {
+        padding: 90px 10px 90px 10px;
+        background: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 49px;
+    }
+    .title {
+        font-size: 56px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 100px 180px;
+    }
+
+    .row-2 {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        background: black;
+        padding: 20px;
+        color: white;
+    }
+}
+
+/* IPHONE 5S/SE*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+    body {
+        width: 100vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 35pt;
+    }
+
+    #header {
+        padding: 120px 10px 0 10px;
+        background: black;
+        color: white;
+    }
+
+    #content {
+        padding: 90px 10px 90px 10px;
+        background: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 43px;
+    }
+    .title {
+        font-size: 56px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 100px 180px;
+    }
+
+    .row-2 {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        background: black;
+        padding: 20px;
+        color: white;
+    }
+
+    #header {
+        padding: 120px 10px 0 10px;
+        background: black;
+        color: white;
+    }
+
+    #content {
+        padding: 90px 10px 90px 10px;
+        background: black;
+        color: white;
+    }
+
+    .title {
+        font-size: 53px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 100px 180px;
+    }
+
+    .row-2 {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        background: black;
+        padding: 20px;
+        color: white;
+    }
+}
